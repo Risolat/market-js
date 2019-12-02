@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'FuturaMediumC';
+    src: url('../fonts/FuturaMediumC.woff2') format('woff2'),
+        url('../fonts/FuturaMediumC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	box-sizing: border-box;
+	font-family: "FuturaMediumC", "Arial", sans-serif;
+}
+.container{
+	max-width: 900px;
+	margin: 100px auto 0;
+	padding: 30px 30px 90px;
+	background-color: #f0f8fb;
+}
+.heading{
+	text-align: center;
+	font-size: 40px;
+	color: #1d7d7a;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.product-input{
+	margin: 0 5px;
+	padding: 8px 15px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid #10c9c3;
+}
+.product-name{
+	width: 300px;
+}
+.product-count{
+	width: 70px;
+}
+.add-product{
+	margin: 0 5px;
+	padding: 9px 20px;
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+	color: #fff;
+	background-color: #10c9c3;
+}
